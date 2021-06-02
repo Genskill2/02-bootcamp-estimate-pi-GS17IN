@@ -2,7 +2,7 @@ import math
 import unittest
 import random
 
-def montecarlo(n) :
+def monte_carlo(n) :
         c=0
         for i in range(n) :
               a = random.random()
