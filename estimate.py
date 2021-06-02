@@ -5,12 +5,12 @@ import random
 def montecarlo(n) :
         c=0
         for i in range(n) :
-        a = random.random()
-        b = random.random()
+              a = random.random()
+              b = random.random()
         
-        x = (a*a)+(b*b)
-        if x<=1
-             c+=1
+              x = (a*a)+(b*b)
+              if x<=1:
+                   c+=1
         
         ret = 4*c/n
         return ret
