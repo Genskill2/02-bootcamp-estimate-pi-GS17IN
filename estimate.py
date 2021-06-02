@@ -2,9 +2,9 @@ import math
 import unittest
 import random
 
-def montecarlo(n)
+def montecarlo(n) :
         c=0
-        for i in range(n)
+        for i in range(n) :
         a = random.random()
         b = random.random()
         
@@ -15,9 +15,9 @@ def montecarlo(n)
         ret = 4*c/n
         return ret
         
-def wallis(n)
+def wallis(n) :
         c = 1
-        for i in range(1,n)
+        for i in range(1,n) :
              j = i*2
              c = (c*j*j)/((j+1)*(j-1))
              
